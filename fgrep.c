@@ -24,8 +24,8 @@ main(void)
 			printf("DEBUG: line: %s", line);
 #endif
 			if (proceed_to_nl) {
-				line[n - 1] = '\0';
-				printf("%s\n", line);
+				line[n] = '\0';
+				printf("%s", line);
 				proceed_to_nl = 0;
 			}
 			n = 0;

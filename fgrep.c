@@ -15,7 +15,7 @@ main(void)
 	while ((c = getchar()) != EOF) {
 
 		if (n >= sizeof (line))
-			return (1);
+			return 1;
 
 		line[n++] = c;
 

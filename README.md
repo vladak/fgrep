@@ -2,4 +2,5 @@ See if Github can run static analysis that would detect the mistake in the progr
 
 Results so far:
   - CodeQL: did not detect
-  - Sonar: TBD
+  - Sonarcloud: did not detect
+  - Parfait: detects

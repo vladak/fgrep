@@ -24,7 +24,7 @@ main(void)
 			printf("DEBUG: line: %s", line);
 #endif
 			if (proceed_to_nl) {
-				line[n] = '\0';
+				line[n] = '\0';	// Bug. Can you spot it ?
 				printf("%s", line);
 				proceed_to_nl = 0;
 			}
